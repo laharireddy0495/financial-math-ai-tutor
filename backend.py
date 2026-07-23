@@ -1,9 +1,12 @@
+from dotenv import load_dotenv
+import os
+load_dotenv()
 import json
 import re
 import urllib.request
 
 # Your free Gemini API Key
-GEMINI_API_KEY = "AQ.Ab8RN6JwTH-xal4IiWLzPmFEI1Htmg2z0vp5HTmuMjq1qeiiPg"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 TUTOR_SYSTEM_PROMPT = """
 You are an expert, encouraging financial math tutor. 
