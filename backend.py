@@ -3,7 +3,7 @@ import re
 import urllib.request
 
 # Your free Gemini API Key
-GEMINI_API_KEY = "AQ.Ab8RN6LfvhiETV1gQpkz-tWRBPUkFy2OAg6p7I6rXDJ1JWCTmA"
+GEMINI_API_KEY = "AQ.Ab8RN6JwTH-xal4IiWLzPmFEI1Htmg2z0vp5HTmuMjq1qeiiPg"
 
 TUTOR_SYSTEM_PROMPT = """
 You are an expert, encouraging financial math tutor. 
