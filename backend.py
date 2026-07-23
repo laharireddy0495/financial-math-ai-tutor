@@ -5,7 +5,7 @@ import json
 import re
 import urllib.request
 
-# Your free Gemini API Key
+# # Load Gemini API key from environment variables
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 TUTOR_SYSTEM_PROMPT = """
