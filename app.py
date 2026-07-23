@@ -45,6 +45,6 @@ with left_col:
             pass
 
 with right_col:
-    st.subheader("🛡️ Prompt Engineering: AI Internal Thinking Logs")
-    st.info("This sidebar shows what the AI is thinking behind the scenes before replying.")
+    st.subheader("🛡️ AI Reasoning Summary")
+    st.info("This panel summarizes the AI tutor's reasoning and solution strategy before generating a response.")
     st.code(st.session_state.latest_thoughts, language="markdown")
