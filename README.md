@@ -1,14 +1,54 @@
-# 🧠 AI Financial Math Tutor (Prompt Engineering Showcase)
+# 🧠 AI Financial Math Tutor
 
-A production-grade educational application built on top of **Prompt Engineering Foundations**. It implements an interactive financial math tutor that acts as a pedagogical guide rather than a generic answer generator.
+An AI-powered Financial Mathematics Tutor built using Python, Streamlit, and Google's Gemini API. The application provides interactive tutoring by guiding students through financial mathematics concepts step by step while displaying a high-level reasoning summary.
 
-## 🚀 Prompt Engineering Core Foundations Implemented
+## Features
 
-*   **Chain-of-Thought (CoT) Reasoning**: The system forces the LLM to calculate compounding interest steps inside hidden `<thinking>...</thinking>` XML tags before replying to the student.
-*   **Persona & Behavioral Guardrails**: Implements strict instructional hierarchies to maintain an encouraging teacher persona and manage topic constraints.
-*   **Fail-Safe Local Fallback Architecture**: Features a local fallback layer to handle network errors smoothly, ensuring consistent user experience.
+- 🤖 AI-powered financial math tutor
+- 💬 Interactive chat interface
+- 📊 Reasoning summary panel
+- 📚 Explains concepts such as:
+  - Simple Interest
+  - Compound Interest
+  - Future Value
+  - Present Value
+- 🛡️ Graceful fallback mode if the AI service is temporarily unavailable
 
-## 🛠️ Tech Stack
-*   **Frontend**: Streamlit Dashboard UI layout.
-*   **Backend Orchestration**: Python 3.7+ stable architecture.
-*   **Core AI Engine**: Google Gemini API Integration.
+## Technologies Used
+
+- Python
+- Streamlit
+- Google Gemini API
+- python-dotenv
+- Regular Expressions (re)
+
+## Project Structure
+
+```
+financial-tutor/
+│
+├── app.py
+├── backend.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Future Improvements
+
+- Conversation history
+- Financial calculators
+- Charts and visualizations
+- Multi-language support
+- Voice-based tutoring
+
+## Author
+
+**Laharshitha Reddy**
